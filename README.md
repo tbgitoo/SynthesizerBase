@@ -15,3 +15,8 @@ The goal of this minimalistic fork is to provide an absolutely minimal C++ base 
 That can be generic wavetable synthesizers as done by Jan Wilczek, you could also base it on fluidsynth, as you whish. We were simply looking for a convenient and solid
 base architecture for various synthesizers, and seeing Jan Wilczek's systematic approach, tried to extract the very core essence of it, for extension in other projects.
 
+## Dependencies
+
+For this to work, you need to configure oboe (i.e. https://github.com/google/oboe). A first possibility is via gradle dependency, but we found this to be less stable, a more complex but ultimately at least in 
+our case more reliable solution was inclusion via the github submodule mechanism.
+
