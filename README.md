@@ -1,28 +1,17 @@
-# Wavetable Synthesizer Android App
+# SynthesizerBase: A very basic framework for building Android Apps with synthesizing capacity
 
-## Built using Jetpack Compose and the Oboe library
+## Origin of the project
 
-By Jan Wilczek from TheWolfSound.com.
+This is a very much simplified and reduced version of Jan Wilczek's wave table synthesizer (https://github.com/JanWilczek/android-wavetable-synthesizer). If you are looking for
+Jan Wilczek's code and tutorial, please go to his github page (again, at https://github.com/JanWilczek/android-wavetable-synthesizer).
 
-This repository contains the source code of my tutorial on how to build a wavetable synthesizer on
-Android.
+Also, you can check out his tutorial, which is very thorough and helpful.
 
 [>>> Read the tutorial on TheWolfSound.com <<<](https://thewolfsound.com/android-synthesizer-1-app-architecture/)
 
 ## Project Goal
 
-The goal of the app is to build a wavetable synthesizer on Android with basic controls. You can see
-them in the user interface (UI) of the app.
+The goal of this minimalistic fork is to provide an absolutely minimal C++ base class hierarchy that can be extended to various synthesizers. 
+That can be generic wavetable synthesizers as done by Jan Wilczek, you could also base it on fluidsynth, as you whish. We were simply looking for a convenient and solid
+base architecture for various synthesizers, and seeing Jan Wilczek's systematic approach, tried to extract the very core essence of it, for extension in other projects.
 
-![](https://thewolfsound.com/assets/img/posts/synthesis/android-wavetable-synthesizer/SynthesizerUI.webp)
-
-_Graphical user interface of the synthesizer app._
-
-The secondary goal is to use cutting-edge Android tools and practices like
-
-* [Kotlin programming language](https://kotlinlang.org/),
-* [Jetpack Compose UI framework](https://developer.android.com/jetpack/compose),
-* [Oboe audio library](https://github.com/google/oboe),
-* and [modern Android architecture guidelines](https://developer.android.com/topic/architecture).
-
-Feel free to explore, comment, and give feedback!
